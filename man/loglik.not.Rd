@@ -28,4 +28,3 @@ logLik(w)
 # *** log-likelihood for the model with the change-point at 100
 logLik(w, cpt=100)
 }
-

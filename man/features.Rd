@@ -59,6 +59,5 @@ fo$cpt
 plot(fo$ic)
 }
 \references{
-R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 }
-

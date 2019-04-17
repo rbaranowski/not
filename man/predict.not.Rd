@@ -64,4 +64,3 @@ signal.est <- predict(w)
 \seealso{
 \code{\link{not}}
 }
-

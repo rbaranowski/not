@@ -9,6 +9,5 @@ Implements the Narrowest-Over-Threshold approach for general multiple change-poi
 detection in one-dimensional data following 'deterministic signal + noise' model. Scenarios that are currently implemented are: piecewise-constant signal, piecewise-constant signal with a heavy tailed noise, piecewise-linear signal, piecewise-quadratic signal, piecewise-constant signal and with piecewise-constant standard deviation of the noise. The main routines of the package are \code{\link{not}} and \code{\link{features}}.
 }
 \references{
-R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 }
-

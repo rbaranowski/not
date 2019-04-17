@@ -5,8 +5,8 @@
 #' used inside \code{\link{not}} function and is typically not called directly by the user.
 #' @param n a number of endpoints to choose from
 #' @param M a number of intervals to generate
-#' @param max.length an integer specifying maximum interval length
 #' @param min.length an integer specifying minimum interval length
+#' @param max.length an integer specifying maximum interval length
 #' @param ... not in use
 #' @return a \code{M} by 2 matrix with start (first column) and end (second column) points of an interval in each row
 #' @examples

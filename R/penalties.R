@@ -10,7 +10,7 @@
 #' @export sic.penalty
 #' @return the penalty term \eqn{\code{n.param}\times(\log(n))^{\code{alpha}}}{n.param * (log(n))^(alpha)}.
 #' @references 
-#' R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+#' R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 #' 
 #' P. Fryzlewicz (2014). Wild Binary Segmentation for multiple change-point detection. Annals of Statistics. (\url{http://stats.lse.ac.uk/fryzlewicz/wbs/wbs.pdf}) 
 #' @examples
@@ -37,7 +37,7 @@ sic.penalty <- function(n, n.param, alpha=1.00, ...){
 #' @param ... Not in use.
 #' @return The penalty term \eqn{2 \times \code{n.param}}{2*n.param}.
 #' @references 
-#' R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+#' R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 #' @examples
 #' #*** a simple example how to use the AIC penalty
 #' x <- rnorm(300) + c(rep(1,50),rep(0,250))

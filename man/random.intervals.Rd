@@ -4,12 +4,14 @@
 \alias{random.intervals}
 \title{Generate random intervals}
 \usage{
-random.intervals(n, M, max.length = n, ...)
+random.intervals(n, M, min.length = 1, max.length = n, ...)
 }
 \arguments{
 \item{n}{a number of endpoints to choose from}
 
 \item{M}{a number of intervals to generate}
+
+\item{min.length}{an integer specifying minimum interval length}
 
 \item{max.length}{an integer specifying maximum interval length}
 
@@ -30,4 +32,3 @@ intervals <- random.intervals(50, 100)
 \seealso{
 \code{\link{not}}
 }
-

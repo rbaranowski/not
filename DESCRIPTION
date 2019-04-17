@@ -1,10 +1,10 @@
 Package: not
 Type: Package
 Title: Narrowest-Over-Threshold Change-Point Detection
-Version: 1.1
-Date: 2016-08-01
+Version: 1.2
+Date: 2019-04-17
 Author: Rafal Baranowski, Yining Chen, Piotr Fryzlewicz
-Maintainer: Rafal Baranowski <r.baranowski@lse.ac.uk>
+Maintainer: Rafal Baranowski <package_maintanance@rbaranowski.com>
 Depends:
     graphics,
     stats, 
@@ -12,4 +12,4 @@ Depends:
 Description: Provides efficient implementation of the Narrowest-Over-Threshold methodology for detecting an unknown number of change-points occurring at unknown locations in one-dimensional data following 'deterministic signal + noise' model. Currently implemented scenarios are: piecewise-constant signal, piecewise-constant signal with a heavy-tailed noise, piecewise-linear signal, piecewise-quadratic signal, piecewise-constant signal and with piecewise-constant variance of the noise.
 License: GPL-2
 NeedsCompilation: yes
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1

@@ -28,4 +28,3 @@ plot(w, cpt=100)
 \seealso{
 \code{\link{predict.not}} \code{\link{not}}  \code{\link{features}}
 }
-

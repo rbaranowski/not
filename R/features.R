@@ -10,7 +10,7 @@
 #' while the penalty function is computed with \code{\link{sic.penalty}} (\code{penalty="sic"}), \code{\link{aic.penalty}} (\code{penalty="aic"}) or a user-defined penalty function (\code{penalty="user"}).
 #' @rdname features
 #' @export
-#' @references R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+#' @references R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 
 features  <- function(object, ...)
   UseMethod("features")

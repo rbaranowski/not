@@ -1,9 +1,9 @@
 #' @title Narrowest-Over-Threshold Change-Point Detection
 #' @description Implements the Narrowest-Over-Threshold approach for general multiple change-point 
 #' detection in one-dimensional data following 'deterministic signal + noise' model. Scenarios that are currently implemented are: piecewise-constant signal, piecewise-constant signal with a heavy tailed noise, piecewise-linear signal, piecewise-quadratic signal, piecewise-constant signal and with piecewise-constant standard deviation of the noise. The main routines of the package are \code{\link{not}} and \code{\link{features}}.	
-#' @references R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+#' @references R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 #' @docType package
-#' @useDynLib not
+#' @useDynLib not, .registration = TRUE
 #' @name not-package
 #' @importFrom  graphics plot lines title
 #' @importFrom stats cov lm.fit logLik predict residuals sd mad quantile runif ts.plot var
@@ -144,7 +144,7 @@ not <- function(x, ...)  UseMethod("not")
 #' column 'max.contrast' contains corresponding value of the contrast statistic.}
 #' \item{solution.path}{A list with the solution path of the NOT algorithm (see the references) containing three fields of the same length: \code{cpt} - a list with consecutive solutions, i.e. s the sets of change-point candidates, 
 #' \code{th} - a vector of thresholds corresponding to the solutions, \code{n.cpt} - a vector with the number of change-points for each solution.}
-#' @references R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+#' @references R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 
 not.default <- function(x, 
                         M=10000,  

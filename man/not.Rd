@@ -9,8 +9,9 @@ not(x, ...)
 
 \method{not}{default}(x, M = 10000, method = c("not", "max"),
   contrast = c("pcwsConstMean", "pcwsConstMeanHT", "pcwsLinContMean",
-  "pcwsLinMean", "pcwsQuadMean", "pcwsConstMeanVar"), rand.intervals = TRUE,
-  parallel = FALSE, augmented = FALSE, intervals, ...)
+  "pcwsLinMean", "pcwsQuadMean", "pcwsConstMeanVar"),
+  rand.intervals = TRUE, parallel = FALSE, augmented = FALSE,
+  intervals, ...)
 }
 \arguments{
 \item{x}{A numeric vector with data points.}
@@ -153,6 +154,5 @@ fo <- features(w)
 fo$cpt
 }
 \references{
-R. Baranowski, Y. Chen, and P. Fryzlewicz (2016). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://personal.lse.ac.uk/baranows/not/not.pdf})
+R. Baranowski, Y. Chen, and P. Fryzlewicz (2019). Narrowest-Over-Threshold Change-Point Detection.  (\url{http://stats.lse.ac.uk/fryzlewicz/not/not.pdf})
 }
-

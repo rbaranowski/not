@@ -4,7 +4,8 @@
 \alias{residuals.not}
 \title{Extract residuals from a 'not' object}
 \usage{
-\method{residuals}{not}(object, cpt, type = c("raw", "standardised"), ...)
+\method{residuals}{not}(object, cpt, type = c("raw", "standardised"),
+  ...)
 }
 \arguments{
 \item{object}{An object of class 'not', returned by \code{\link{not}}.}
@@ -34,4 +35,3 @@ plot(residuals(w, cpt=100))
 # *** plot standardised residuals
 plot(residuals(w, type="standardised"))
 }
-
