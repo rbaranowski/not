@@ -215,7 +215,7 @@ not.default <- function(x,
 	  M <- nrow(intervals)
 	  
 	  if(any(intervals[,1] > intervals[,2])) stop("intervals[,2] must be > than intervals[,1]")
-	  if(any(intervals < 1 || intervals > length(x))) stop("endpoints in intervals must be between 1 and length(x)")
+	  if(any(intervals < 1) || any(intervals > length(x))) stop("endpoints in intervals must be between 1 and length(x)")
 	  
 	}
     
